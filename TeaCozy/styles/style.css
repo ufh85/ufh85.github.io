@@ -93,12 +93,13 @@ a {
 
 .photoAlbum {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .photoAlbum img {
     width: 300px;
+    margin: 7px 7px;
 }
 
 #bannerLabel h2 {
