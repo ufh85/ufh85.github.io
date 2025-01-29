@@ -12,6 +12,11 @@ body {
     margin: 0;
 }
 
+a {
+    color: seashell;
+    text-decoration: none;
+}
+
 .header {
     height: 69px;
     display: flex;
@@ -55,6 +60,9 @@ body {
     position: relative; /* Establishes a positioning context for its children */
     width: 100%;
     height: 700px;
+    background-image: url("../resources/images/img-mission-background.jpg");
+    background-size: cover;
+
 }
 
 #banner img {
@@ -81,6 +89,16 @@ body {
     color: white; /* Example: Text color */
     text-align: center; /* Center-align the text */
     background-color: rgba(0, 0, 0, 1); /* Example: Semi-transparent background */
+}
+
+.photoAlbum {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photoAlbum img {
+    width: 300px;
 }
 
 #bannerLabel h2 {
