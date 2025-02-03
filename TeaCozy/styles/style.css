@@ -3,12 +3,15 @@
     opacity: .9;
 }    
 
-body {
-    background-color: #000000;
+html {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     text-align: center;
+}
+
+body {
+    background-color: #000000;
     margin: 0;
 }
 
@@ -149,4 +152,18 @@ a {
 
 img, #bannerLabel {
     opacity: 1;
+}
+
+.contactInfo {
+    box-sizing: border-box;
+    height: 200px;
+}
+
+h5 {
+    margin: 8px;
+}
+
+.copyRight {
+    text-align: left;
+    font-size: .5rem;
 }
