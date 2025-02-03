@@ -62,18 +62,7 @@ a {
     height: 700px;
     background-image: url("../resources/images/img-mission-background.jpg");
     background-size: cover;
-
 }
-
-.banner img {
-    height: 100%;
-    width: 100%;
-    z-index: 0; /* Stays at the bottom layer */
-    position: absolute; /* Ensures the image fills the #banner container */
-    top: 0;
-    left: 0;
-}
-
 
 
 #labelContainer {
@@ -93,10 +82,54 @@ a {
     background-color: rgba(0, 0, 0, 1); /* Example: Semi-transparent background */
 }
 
+.addressBanner {
+    width: 100%;
+    height: 500px;
+    background-image: url("../resources/images/img-locations-background.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addressBanner h2 {
+    margin-bottom: 15px;
+}
+
+.addressGroup {
+    z-index: 1; 
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+
+}
+.addressLabel {
+    width: 300px;
+    opacity: 1;
+    background-color: #000;
+}
+
+.addressLabel ul {
+    padding: 0;
+    margin: 13px;
+}
+
+.addressLabel h3 {
+    margin: 0;
+}
+
+.addressLabel li{
+    list-style: none;
+    margin: 7px 0;
+    
+}
+
 .photoAlbum {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 75px;
 }
 
 .photoAlbum img {
