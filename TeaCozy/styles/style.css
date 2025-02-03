@@ -1,17 +1,13 @@
-* {
-    border: 1px solid red;
-    opacity: .9;
-}    
 
 html {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     text-align: center;
+    background-color: rgba(0, 0, 0, .9);
 }
 
 body {
-    background-color: #000000;
     margin: 0;
 }
 
@@ -71,7 +67,6 @@ a {
     background-size: cover;
 }
 
-
 #labelContainer {
     display: flex;
 }
@@ -86,7 +81,7 @@ a {
     z-index: 2; /* Places it above the image */
     color: white; /* Example: Text color */
     text-align: center; /* Center-align the text */
-    background-color: rgba(0, 0, 0, 1); /* Example: Semi-transparent background */
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .addressBanner {
@@ -109,12 +104,10 @@ a {
     display: flex;
     gap: 40px;
     justify-content: center;
-
 }
 .addressLabel {
     width: 300px;
-    opacity: 1;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .addressLabel ul {
